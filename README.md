@@ -4,4 +4,4 @@ Day 2 Task of Hands-on with Git &amp; GitHub Workshop
 
 ### Python coded calculator - py_cal
 
-### C++ coded calculator -
+### C++ coded calculator - C++ cal
