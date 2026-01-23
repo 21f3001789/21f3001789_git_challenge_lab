@@ -40,35 +40,35 @@ def calculator():
             num1 = get_number("First number: ")
             num2 = get_number("Second number: ")
             result = add_numbers(num1, num2)
-            print(f"{num1} + {num2} = {result}")
+            print(f"{num1:.5f} + {num2:.5f} = {result:.5f}")
             
         elif choice == '2':
             print("\n➖ SUBTRACTION")
             num1 = get_number("First number: ")
             num2 = get_number("Second number: ")
             result = subtract_numbers(num1, num2)
-            print(f"{num1} - {num2} = {result}")
+            print(f"{num1:.5f} - {num2:.5f} = {result:.5f}")
             
         elif choice == '3':
             print("\n Multiplication")
             num1 = get_number("First number: ")
             num2 = get_number("Second number: ")
-            result = subtract_numbers(num1, num2)
-            print(f"{num1} * {num2} = {result}")
+            result = multiply_numbers(num1, num2)
+            print(f"{num1:.5f} * {num2:.5f} = {result:.5f}")
             
         elif choice == '4':
             print("\n Division")
             num1 = get_number("First number: ")
             num2 = get_number("Second number: ")
-            result = subtract_numbers(num1, num2)
-            print(f"{num1} / {num2} = {result}")
+            result = divide_numbers(num1, num2)
+            print(f"{num1:.5f} / {num2:.5f} = {result:.5f}")
             
         elif choice == '5':
             print("👋 Goodbye!")
             break
             
         else:
-            print("Invalid choice! Try 1, 2, or 3.")
+            print("Invalid choice! Try 1, 2, 3, 4, or 5.")
         
         input("\nPress Enter to continue...")
 
